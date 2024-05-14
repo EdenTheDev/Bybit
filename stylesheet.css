@@ -33,3 +33,18 @@ body, html {
     width: 50%;
     height: auto;
 }
+#overlayText {
+    background-color: #f7a600; /* Bright orange background */
+    color: black;
+    font-size: 28px; /* Larger font size */
+    font-weight: bold; /* Make text bold */
+    text-align: center;
+    position: absolute;
+    width: auto;
+    padding: 10px 20px; /* Add some padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    top: 10%; /* Adjust this value as needed to position above the video */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    z-index: 1100; /* Ensure it appears above the video */
+}
